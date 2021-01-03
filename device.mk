@@ -433,4 +433,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.sf.disable_backpressure=1
 
 # Dirac
+PRODUCT_PACKAGES += \
+    Dirac
+
+# Dirac
 $(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
