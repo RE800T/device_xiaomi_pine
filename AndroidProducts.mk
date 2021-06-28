@@ -1,2 +1,3 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_pine.mk
+    $(LOCAL_DIR)/lineage_pine.mk
+

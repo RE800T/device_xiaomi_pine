@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2021 The dotOS Project
+# Copyright 2020 The Android Open Source Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,13 +13,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/pine/device.mk)
 
 # Inherit some dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device Maintainer
-DEVICE_MAINTAINER := AOiSPdev
+DEVICE_MAINTAINER := UtopianStorytelling
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -27,7 +28,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_pine
+PRODUCT_NAME := lineage_pine
 PRODUCT_DEVICE := pine
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
@@ -48,3 +49,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
+
