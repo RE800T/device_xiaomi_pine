@@ -76,3 +76,6 @@ ro.sf.lcd_density=320
 
 # WFD
 persist.debug.wfd.enable=1
+
+# SurfaceFlinger
+debug.sf.latch_unsignaled=1
