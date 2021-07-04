@@ -192,6 +192,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Iorapd
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.iorapd.enable=true
+
 # IRQ
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
