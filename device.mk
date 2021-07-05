@@ -431,3 +431,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
+
+# Dirac
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
