@@ -38,8 +38,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Fingerprint
-BUILD_FINGERPRINT := google/coral/coral:11/RQ2A.210405.005/7181113:user/release-keys
-BUILD_DESCRIPTION := coral-user 11 RQ2A.210405.005 7181113 release-keys
+BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+BUILD_DESCRIPTION := coral-user 10 QQ3A.200805.001 6578210 release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
